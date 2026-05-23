@@ -1,0 +1,17 @@
+# Python otomatik derleme dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# İşletim sistemi kalıntıları
+.DS_Store
+Thumbs.db
+
+# Sanal ortam klasörleri (Eğer ileride açarsan)
+venv/
+.venv/
+env/
+
+# VS Code yerel ayarları
+.vscode/

@@ -308,6 +308,6 @@ if __name__ == "__main__":
     print("Bağlantı test ediliyor...")
     prods = fetch_all_products()
     if prods:
-        print(f"Bağlantı başarılı! {len(prods)} adet ürün bulundu.")
+        print(f"Bağlantı başarılı {len(prods)} adet ürün bulundu.")
     else:
         print("Bağlantı başarılı veya veritabanı şu an boş.")

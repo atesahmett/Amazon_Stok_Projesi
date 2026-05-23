@@ -4,7 +4,6 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Uygulama-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-Versiyon_Kontrol-F05032?style=for-the-badge&logo=git&logoColor=white)
-![License](https://img.shields.io/badge/Lisans-MIT-61DAFB?style=for-the-badge)
 
 Bu proje; modern ilişkisel veritabanı yönetim sistemleri (RDBMS) prensiplerine, veri bütünlüğü (data integrity) kurallarına ve katmanlı yazılım mimarisine uygun olarak geliştirilmiş kurumsal düzeyde bir **Envanter, Tedarik ve Stok Takip Paneli** simülasyonudur.
 

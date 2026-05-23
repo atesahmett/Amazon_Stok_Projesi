@@ -74,7 +74,7 @@ elif choice == "🔄 Stok Hareketleri (Alım/Satış)":
                     p_id = product_options[selected_p] 
                     success, data = add_stock(p_id, qty)
                     if success: 
-                        st.success(f"✅ Stok artırıldı! (İşlem ID: {data['order_id']})")
+                        st.success(f"✅ {data}")
                     else: st.error(data)
         
         with col2:
@@ -87,7 +87,7 @@ elif choice == "🔄 Stok Hareketleri (Alım/Satış)":
                     p_id_s = product_options[selected_p_s]
                     success, data = sell_product(p_id_s, qty_s)
                     if success: 
-                        st.success(f"✅ Satış kaydedildi! (Satış ID: {data['sale_id']})")
+                        st.success(f"✅ {data}")
                     else: st.error(data)
 
     st.markdown("---")

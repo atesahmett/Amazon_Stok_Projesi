@@ -26,4 +26,4 @@ INSERT INTO Purchase_Orders (product_id, quantity_bought) VALUES (2, 20);
 -- Geçmişe dönük birkaç satış işlemi (Trigger otomatik olarak ürünlerin stoğunu azaltacak)
 INSERT INTO Sales (product_id, quantity_sold) VALUES (1, 10);
 INSERT INTO Sales (product_id, quantity_sold) VALUES (4, 5);
-INSERT INTO Sales (product_id, quantity_sold) VALUES (5, 20);
+INSERT INTO Sales (product_id, quantity_sold) VALUES (5, 1);
